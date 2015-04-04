@@ -1,6 +1,5 @@
 ---
 
-- include: python.yml
 - include: aptrepos.yml
 - include: packages.yml
 - include: users.yml
