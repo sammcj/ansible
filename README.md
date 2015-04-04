@@ -1,3 +1,8 @@
+## hacky things...
+
+A repo for my adventures with Ansible.
+I have roles to setup my media server, Macbook and various scratch notes / bookmarks below.
+
 #### Install Ansible
 
 Mac:

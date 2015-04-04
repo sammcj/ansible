@@ -2,7 +2,8 @@
 
 - name: Create dirs for container storage
   file: path=/mnt/raid/docker/{{item}} state=directory
-  with_items: ['gogs','sabnzbd','sickbeard-data','sickbeard-config','plex','webvirtmgr','headphones-data','headphones-config']
+  with_items: ['gogs','sabnzbd','sickbeard-data','sickbeard-config','plex-config','webvirtmgr',
+               'headphones-data','headphones-config','couchpotato-data','couchpotato-config']
 
 - name: gogs
   tags: dockerapp
@@ -55,7 +56,9 @@
     restart_policy: always
     state: started
     volumes:
-    - /mnt/raid/docker/plex:/data:rw
+    - /mnt/raid/docker/plex-config:/config:rw
+    - /mnt/raid/docker/movies:/data/movies:rw
+    - /mnt/raid/docker/series:/data/series:rw
     ports:
     - "32400:32400"
 
@@ -85,5 +88,18 @@
 #     - /mnt/raid/docker/headphones-data:/data:rw
 #     - /mnt/raid/docker/headphones-config:/config:rw
 #     ports:
-#     - "9000:80"
-#     - "16514:16514"
+#     - "8888:8888"
+#
+# - name: couchpotato
+#   tags: dockerapp
+#   docker:
+#     name: couchpotato
+#     image: sammcj/docker-couchpotato
+#     pull: always
+#     restart_policy: always
+#     state: started
+#     volumes:
+#     - /mnt/raid/docker/couchpotato-data:/data:rw
+#     - /mnt/raid/docker/couchpotato-config:/config:rw
+#     ports:
+#     - "5000:5000"

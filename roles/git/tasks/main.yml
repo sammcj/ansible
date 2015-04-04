@@ -1,4 +1,12 @@
 ---
 
 - git: repo=https://github.com/sammcj/smart_diskinfo.git dest=/root/git/smart_diskinfo
+- git: repo=https://github.com/sammcj/ansible.git dest=/root/git/ansible
+- git: repo=https://github.com/sammcj/kernel-ci.git dest=/root/git/kernel-ci
+- git: repo=https://github.com/sammcj/mondotunes.git dest=/root/git/mondotunes
+- git: repo=https://github.com/sammcj/s_mcleod.git dest=/root/git/s_mcleod
 
+- git: repo=https://github.com/Nyr/openvpn-install.git dest=/root/git/openvpn-install
+- git: repo=https://github.com/brendangregg/perf-tools.git dest=/root/git/perf-tools
+- git: repo=https://github.com/stec-inc/EnhanceIO.git dest=/root/git/enhanceio
+- git: repo=https://github.com/lanceshelton/irqstat.git dest=/root/git/irqstat
