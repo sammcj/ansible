@@ -12,7 +12,6 @@
   - backupninja
   - debops.samba
   #- nginx
-  #- { role: geerlingguy.gogs }
   #- debops.ferm
   #- kalos.smartd
   #- kernelwatch

@@ -3,7 +3,7 @@
 - name: Create dirs for container storage
   file: path=/mnt/raid/docker/{{item}} state=directory
   with_items: ['gogs','sabnzbd','sickbeard-data','sickbeard-config','plex-config','webvirtmgr',
-               'headphones-data','headphones-config','couchpotato-data','couchpotato-config']
+               'headphones-data','couchpotato-data','couchpotato-config']
 
 - name: gogs
   tags: dockerapp
@@ -62,6 +62,34 @@
     ports:
     - "32400:32400"
 
+- name: headphones
+  tags: dockerapp
+  docker:
+    name: headphones
+    image: sammcj/docker-headphones
+    pull: always
+    restart_policy: always
+    state: started
+    volumes:
+    - /mnt/raid/docker/headphones-data:/home/headphones:rw
+    ports:
+    - "8181:8181"
+
+
+- name: couchpotato
+  tags: dockerapp
+  docker:
+    name: couchpotato
+    image: sammcj/docker-couchpotato
+    pull: always
+    restart_policy: always
+    state: started
+    volumes:
+    - /mnt/raid/docker/couchpotato-data:/data:rw
+    - /mnt/raid/docker/couchpotato-config:/config:rw
+    ports:
+    - "5000:5050"
+
 # - name: webvirtmgr
 #   tags: dockerapp
 #   docker:
@@ -75,31 +103,3 @@
 #     ports:
 #     - "9000:80"
 #     - "16514:16514"
-
-# - name: headphones
-#   tags: dockerapp
-#   docker:
-#     name: headphones
-#     image: sammcj/docker-headphones
-#     pull: always
-#     restart_policy: always
-#     state: started
-#     volumes:
-#     - /mnt/raid/docker/headphones-data:/data:rw
-#     - /mnt/raid/docker/headphones-config:/config:rw
-#     ports:
-#     - "8888:8888"
-#
-# - name: couchpotato
-#   tags: dockerapp
-#   docker:
-#     name: couchpotato
-#     image: sammcj/docker-couchpotato
-#     pull: always
-#     restart_policy: always
-#     state: started
-#     volumes:
-#     - /mnt/raid/docker/couchpotato-data:/data:rw
-#     - /mnt/raid/docker/couchpotato-config:/config:rw
-#     ports:
-#     - "5000:5000"

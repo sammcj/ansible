@@ -36,6 +36,8 @@
     - python-pip
     - sysdig
     - lockfile-progs
+    - sysdig
+    - linux-headers-{{ansible_kernel}}
 
 - name: Remove unwanted packages
   action: apt pkg={{item}} state=absent
