@@ -33,6 +33,7 @@
     - python-apt
     - urlwatch
     - lnav
+    - python-pip
     - sysdig
     - lockfile-progs
 
@@ -41,3 +42,6 @@
   with_items:
     - nano
     - x11-common
+
+- name: Install latest ansible
+  pip: name=ansible state=latest

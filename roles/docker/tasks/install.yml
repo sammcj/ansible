@@ -2,6 +2,9 @@
 
 # Installs Docker on Debian from the official Docker repo
 
+- name: Install docker-py
+  pip: name=docker-py
+
 - name: Get Docker apt-key
   apt_key: keyserver=keyserver.ubuntu.com id=D8576A8BA88D21E9
   tags:
