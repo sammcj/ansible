@@ -1,0 +1,6 @@
+---
+name: Check out sammcj/kernel-ci repo from Github
+  - git: repo=https://github.com/sammcj/kernel-ci.git dest=/opt/git/kernel-ci
+
+name: Add cron job for kernel_watch
+  - cron: name="kernel_watch" minute="30" hour="*" job="/opt/git/kernel-ci/kernel_watch.sh"

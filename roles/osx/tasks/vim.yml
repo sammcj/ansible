@@ -1,0 +1,12 @@
+---
+
+- name: Install vim-pathogen
+  git: repo={{ item.repo }} dest={{ home_dir }}/.vim/bundle/{{ item.name }} force=no update=no
+  with_items:
+    - { name: 'Dockerfile', repo: 'ssh://git@github.com/tpope/vim-pathogen.git' }
+
+- name: Add vim bundles via git
+  git: repo={{ item.repo }} dest={{ home_dir }}/.vim/bundle/{{ item.name }} force=no update=no
+  with_items:
+    - { name: 'Dockerfile', repo: 'ssh://git@github.com/gekalinin/Dockerfile.vim.git' }
+    - { name: 'vim-ansible-yaml', repo: 'ssh://git@github.com/chase/vim-ansible-yaml.git' }

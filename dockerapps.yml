@@ -1,0 +1,6 @@
+---
+
+- name: NAS media server
+  hosts: localhost
+  roles:
+  - docker

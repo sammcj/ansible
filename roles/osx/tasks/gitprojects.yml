@@ -1,0 +1,13 @@
+---
+
+- name: Checkout main git repos
+
+  git: repo={{ item.repo }} dest={{ home_dir }}/{{ item.name }} force=no update=no
+  with_items:
+    - { name: 'ansible', repo: 'ssh://git@github.com/sammcj/ansible.git' }
+    - { name: 'smcleod', repo: 'ssh://git@github.com/sammcj/smcleod.git' }
+    - { name: 'mondotunes', repo: 'ssh://git@github.com/sammcj/mondotunes.git' }
+    - { name: 'cattlebench', repo: 'ssh://git@github.com/sammcj/cattlebench.git' }
+    - { name: 'packer-qemu-debian-jessie', repo: 'ssh://git@github.com/sammcj/packer-qemu-debian-jessie.git' }
+    - { name: 'kernel-ci', repo: 'ssh://git@github.com/sammcj/kernel-ci.git' }
+    - { name: 'dotfiles', repo: 'ssh://git@github.com/sammcj/dotfiles.git' }

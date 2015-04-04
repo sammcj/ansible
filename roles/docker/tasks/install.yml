@@ -1,0 +1,22 @@
+---
+
+# Installs Docker on Debian from the official Docker repo
+
+- name: Get Docker apt-key
+  apt_key: keyserver=keyserver.ubuntu.com id=D8576A8BA88D21E9
+  tags:
+    - packages
+    - dockerinstall
+
+- name: Install Docker repo
+  tags:
+    - packages
+    - dockerinstall
+  apt_repository: repo='deb https://get.docker.com/ubuntu docker main' state=present
+
+- name: Install Docker package
+  tags:
+    - packages
+    - dockerinstall
+  apt: name=lxc-docker update_cache=yes
+

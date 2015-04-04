@@ -1,0 +1,40 @@
+######################################################
+## source section
+## (where the files to be backed up are coming from)
+
+[source]
+
+# an optional subdirectory below 'directory' (see [dest])
+# only local type is currently supported
+type = local
+
+# how many days of data to keep
+keep = 30
+
+# files to include in the backup
+# (supports globbing with '*')
+include = /root
+
+# files to exclude from the backup
+# (supports globbing with '*')
+#exclude = /home/*/.gnupg
+
+######################################################
+## destination section
+## (where the files are copied to)
+
+[dest]
+
+# remote or local? If local, you dont need to specify a host below
+type = local
+
+# the machine which will receive the backups
+#host = backuphost
+
+# put the backups under this directory
+directory = /mnt/raid/backups/nas/home-root
+
+# make the files owned by this user
+# note: you must be able to ssh backupuser@backhost
+# without specifying a password
+#user = backupuser

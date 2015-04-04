@@ -1,0 +1,8 @@
+---
+
+- name: Installs nginx
+  tags:
+    - packages
+  action: apt pkg={{item}} state=latest
+  with_items:
+    - nginx-full

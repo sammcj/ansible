@@ -1,0 +1,9 @@
+---
+
+#- include: gitprojects.yml
+#- include: osxsettings.yml
+#- include: vim.yml
+- include: homebrew.yml
+- include: homebrewcask.yml
+#- include: dotfiles.yml
+#- include: restorebackups.yml

@@ -1,0 +1,16 @@
+---
+
+# Location of Samba shares
+samba_path: '/mnt/raid'
+samba_shares_path: '{{ samba_path }}'
+samba_service_name: 'smb'
+
+# Hash of hashes of default shares
+samba_default_shares:
+
+  'shares':
+    path: '{{ samba_shares_path }}'
+    comment: 'shares on nas'
+    read_only: 'yes'
+    guest_ok: 'yes'
+

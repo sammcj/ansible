@@ -1,0 +1,89 @@
+---
+
+- name: Create dirs for container storage
+  file: path=/mnt/raid/docker/{{item}} state=directory
+  with_items: ['gogs','sabnzbd','sickbeard-data','sickbeard-config','plex','webvirtmgr','headphones-data','headphones-config']
+
+- name: gogs
+  tags: dockerapp
+  docker:
+    name: gogs
+    image: codeskyblue/docker-gogs
+    pull: always
+    restart_policy: always
+    state: started
+    volumes:
+    - /mnt/raid/docker/gogs:/data:rw
+    ports:
+    - "3000:3000"
+    - "3022:22"
+
+- name: sabnzbd
+  tags: dockerapp
+  docker:
+    name: sabnzbd
+    image: sammcj/docker-sabnzbd
+    pull: always
+    restart_policy: always
+    state: started
+    volumes:
+    - /mnt/raid/docker/sabnzbd:/data:rw
+    ports:
+    - "8080:8080"
+    - "9090:9090"
+
+- name: sickbeard
+  tags: dockerapp
+  docker:
+    name: sickbeard
+    image: sammcj/docker-sickbeard
+    pull: always
+    restart_policy: always
+    state: started
+    volumes:
+    - /mnt/raid/docker/sickbeard-data:/data:rw
+    - /mnt/raid/docker/sickbeard-config:/config:rw
+    ports:
+    - "8081:8081"
+
+- name: plex
+  tags: dockerapp
+  docker:
+    name: plex
+    image: timhaak/plex
+    pull: always
+    restart_policy: always
+    state: started
+    volumes:
+    - /mnt/raid/docker/plex:/data:rw
+    ports:
+    - "32400:32400"
+
+# - name: webvirtmgr
+#   tags: dockerapp
+#   docker:
+#     name: webvirtmgr
+#     image: sammcj/docker-webvirtmgr
+#     pull: always
+#     restart_policy: always
+#     state: started
+#     volumes:
+#     - /mnt/raid/docker/webvirtmgr:/data:rw
+#     ports:
+#     - "9000:80"
+#     - "16514:16514"
+
+# - name: headphones
+#   tags: dockerapp
+#   docker:
+#     name: headphones
+#     image: sammcj/docker-headphones
+#     pull: always
+#     restart_policy: always
+#     state: started
+#     volumes:
+#     - /mnt/raid/docker/headphones-data:/data:rw
+#     - /mnt/raid/docker/headphones-config:/config:rw
+#     ports:
+#     - "9000:80"
+#     - "16514:16514"

@@ -1,0 +1,43 @@
+---
+
+- name: Install base packages
+  tags:
+    - packages
+  action: apt pkg={{item}} state=latest
+  with_items:
+    - git
+    - vim
+    - vim-puppet
+    - vim-pathogen
+    - sysstat
+    - htop
+    - curl
+    - ncdu
+    - aria2
+    - shorewall
+    - rsync
+    - unrar-free
+    - unzip
+    - tmux
+    - apt-transport-https
+    - supervisor
+    - sudo
+    - bzip2
+    - fio
+    - deborphan
+    - hdparm
+    - iftop
+    - iotop
+    - unattended-upgrades
+    - mtr-tiny
+    - python-apt
+    - urlwatch
+    - lnav
+    - sysdig
+    - lockfile-progs
+
+- name: Remove unwanted packages
+  action: apt pkg={{item}} state=absent
+  with_items:
+    - nano
+    - x11-common

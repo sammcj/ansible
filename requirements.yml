@@ -1,0 +1,5 @@
+- src: debops.kvm
+- src: debops.samba
+- src: debops.debops
+- src: debops.ferm
+- src: kalos.smartd

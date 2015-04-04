@@ -1,0 +1,38 @@
+
+- name: Install homebrew_cask applications
+  tags:
+    - osx
+  homebrew_cask: name={{ item }} state=present
+  with_items:
+      # - alfred
+      #- firefox
+      #- iterm2
+      #- sublime-text
+      # - appfresh
+      # - caffeine
+      #- lastfm
+      - vmware-fusion
+      - backblaze-downloader
+      # - monodraw
+      #- dropbox
+      # - evernote
+      # - cloudytabs
+      # - cocktail
+      # - macdown
+      # - cord
+      - unetbootin
+      # - spotify
+      # - adium
+      # - xld
+      # - cyberduck
+      # - dash
+      # - calibre
+      # - appzapper
+      # - zterm
+      # - vlc
+      # - tunnelblick
+      # - transmission
+      # - the-unarchiver
+      # - skitch
+      # - seil
+      # - namebench

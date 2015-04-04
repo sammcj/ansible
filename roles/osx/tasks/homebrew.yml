@@ -1,0 +1,57 @@
+---
+
+# - name: Install homebrew
+#   run_once: true
+#   tags:
+# - osx
+# - script: roles/mbp/files/install_homebrew.sh
+
+# - name: Upgrade homebrew
+#   tags:
+#     - osx
+#   homebrew: update_homebrew=yes upgrade_all=yes
+
+- name: Install homebrew apps
+  tags:
+    - osx
+  homebrew: name={{ item }} state=present
+  with_items:
+    - aria2
+    - go
+    - libksba
+    #- packer
+    #- sudolikeaboss
+    - aria2
+    - pandoc
+    - gawk
+    - tmux
+    - automake
+    - htop-osx
+    - tmux-cssh
+    - axel
+    - wget
+    - wireshark
+    - brew-cask
+    - gifsicle
+    - iftop
+    - llvm
+    - x264
+    - git
+    - mercurial
+    - xz
+    - curl
+    #- git-dude
+    - mtr
+    - youtube-dl
+    - lame
+    - libevent
+    - nmap
+    #- docker-completion
+    - gnu-sed
+    - siege
+    - ffmpeg
+    - gnupg
+    - openssl
+    - gnutls
+    - p7zip
+    - shellcheck

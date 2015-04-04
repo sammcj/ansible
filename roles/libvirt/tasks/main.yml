@@ -1,0 +1,14 @@
+---
+
+- name: Install base packages
+  tags:
+    - packages
+  action: apt pkg={{item}} state=latest
+  with_items:
+    - qemu-kvm
+    - qemu-utils
+    - libvirt-bin
+    - libvirt-clients
+    - python-libvirt
+    - libvirt0
+    - libvirt-daemon

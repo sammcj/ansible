@@ -1,0 +1,13 @@
+---
+
+- name: Install general build packages
+  tags:
+    - packages
+  action: apt pkg={{item}} state=latest
+  with_items:
+    - build-essential
+    - make
+    - g++
+    - gcc
+    - cmake
+    - automake

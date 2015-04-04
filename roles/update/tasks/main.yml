@@ -1,0 +1,6 @@
+---
+
+- name: apt-get update the server
+  tags:
+    - packages
+  apt: update_cache=yes

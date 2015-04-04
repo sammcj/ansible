@@ -1,0 +1,592 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 369.0,
+		"last_filter": "remove",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"theme",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"syn ya",
+				"Set Syntax: YAML"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"git log",
+				"Git: Log Current File"
+			],
+			[
+				"gt com",
+				"Git: Commit"
+			],
+			[
+				"gt pu",
+				"Git: Push"
+			],
+			[
+				"git c",
+				"Git: Commit"
+			],
+			[
+				"gt ad",
+				"Git: Add Current File"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"typ",
+				"Set Syntax: Python"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"pref",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Git: Commit history"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 610.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/samm/git/ansible"
+	],
+	"file_history":
+	[
+		"/Users/samm/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/samm/Dropbox/Sublime/User/Theme - Hero/Hero Dark.sublime-theme",
+		"/Users/samm/git/puppet/hdata/int_docker_apps.eyaml",
+		"/Users/samm/git/puppet/manifests/nodes_redmine.pp",
+		"/Users/samm/git/puppet/manifests/nodes_srs.pp",
+		"/Users/samm/git/puppet/hdata/int_storage.eyaml",
+		"/Users/samm/git/puppet/modules/puppet-modules/ixadockerapp/manifests/host.pp",
+		"/Users/samm/git/puppet/modules/puppet-files/files/int-bindmaster/var/named/master/private/abb.ixa.net.au",
+		"/Users/samm/git/puppet/modules/puppet-files/files/int-bindmaster/var/named/master/private/office.infoxchange.net.au",
+		"/Users/samm/git/puppet/hdata/nagios_oncall.yaml",
+		"/Users/samm/git/IXA.sublime-project",
+		"/Users/sammcj/git/puppet/manifests/nodes_newdrupal.pp",
+		"/Users/sammcj/git/puppet/modules/ixadrupal/manifests/test/sites.pp",
+		"/Users/sammcj/git/puppet/modules/ixadrupal/manifests/staging/sites.pp",
+		"/Users/sammcj/git/puppet/files/prod-newdrupalsites-ssl/temp_srsnastyhackforsrsnsw.conf",
+		"/Users/sammcj/git/puppet/modules/ixadrupal/manifests/prodsites.pp",
+		"/Users/sammcj/git/puppet/modules/ixawebserver/templates/drupal/drushsitealias.erb",
+		"/Users/sammcj/git/puppet/modules/ixadrupal/manifests/site/respiteseekerextras.pp",
+		"/Users/sammcj/git/puppet/modules/ixadbserver/files/drupal/staging_newdrupal_postgresql.conf_8.4",
+		"/Users/sammcj/git/puppet/modules/ixadrupal/templates/respiteseeker.extra.php.erb",
+		"/Users/sammcj/git/puppet/modules/ixadrupal/manifests/site/jobseekerextras.pp",
+		"/Users/sammcj/git/puppet/modules/ixadrupal/manifests/prodsites/extras.pp",
+		"/Users/sammcj/git/puppet/modules/ixadrupal/manifests/prodapps/extras.pp",
+		"/Users/sammcj/git/puppet/modules/ixadrupal/manifests/prodapps.pp",
+		"/Users/sammcj/git/puppet/modules/ixadbserver/manifests/postgresql83/drupal/prod.pp",
+		"/Users/sammcj/git/puppet/modules/ixawebserver/files/drupal/drupal_checkforcompromise.sh",
+		"/Users/sammcj/git/puppet/modules/ixadbserver/manifests/mysql/drupal.pp",
+		"/Users/sammcj/git/otnlegacy/legacy-www-php/etc/cron.d/drupal",
+		"/Users/sammcj/git/otnlegacy/nfs/vhost/pgstats/pgfouine-1.2/include/DurationLogObject.class.php",
+		"/Users/sammcj/git/otnlegacy/sop/reports/deb_receipts",
+		"/Users/sammcj/git/otnlegacy/server_setup/developer.packages",
+		"/Users/sammcj/git/puppet/puppet.conf",
+		"/Users/sammcj/git/otnlegacy/sop/cron/sop_setup_litai",
+		"/Users/sammcj/git/otnlegacy/routers/serv-sw2",
+		"/Users/sammcj/git/otnlegacy/routers/srx100",
+		"/Users/sammcj/git/puppet/manifests/nodes_datamigrate.pp",
+		"/Users/sammcj/git/puppet/manifests/nodes_django.pp",
+		"/Users/sammcj/git/puppet/manifests/nodes_redmine.pp",
+		"/Users/sammcj/git/puppet/application_versions/prod_releasetags.csv",
+		"/Users/sammcj/git/puppet/manifests/nodes_s2s.pp",
+		"/Users/sammcj/git/puppet/manifests/nodes_srs.pp",
+		"/Users/sammcj/git/puppet/modules/augeas/manifests/sysctl.pp",
+		"/Users/sammcj/git/puppet/modules/augeas/manifests/sysctl/conf.pp",
+		"/Users/sammcj/git/puppet/application_versions/test_releasetags.csv",
+		"/Users/sammcj/git/otnlegacy/bindmaster/var/named/master/ixa/infoxchange.net.au",
+		"/Users/sammcj/git/puppet/application_versions/staging_releasetags.csv",
+		"/Users/sammcj/git/otnlegacy/bindmaster/var/named/master/private/abb.ixa.net.au",
+		"/Users/sammcj/git/puppet/modules/ixanginx/files/puma.init",
+		"/Users/sammcj/git/puppet/files/int-redmine/etc/postgresql/9.2/main/postgresql.conf",
+		"/Users/sammcj/git/puppet/files/int-redmine/etc/postgresql/9.2/main/pg_hba.conf",
+		"/Users/sammcj/git/puppet/files/int-redmine/pgsql-backup.sh",
+		"/Users/sammcj/git/puppet/files/int-redmine/redmine_configuration.yml",
+		"/Users/sammcj/git/puppet/files/prod-srs-pg/etc/postgresql/8.4/main/pg_hba.conf",
+		"/Users/sammcj/git/puppet/modules/ixabackup/files/amanda/amanda_excludes.txt",
+		"/Users/sammcj/git/otnlegacy/db-s2s/etc/postgresql/8.3/main/postgresql.conf",
+		"/Users/sammcj/git/puppet/files/prod-srs-pg/etc/postgresql/8.4/main/postgresql.conf.prod",
+		"/Users/sammcj/git/puppet/modules/ixadrupal/manifests/dev/sites.pp",
+		"/Users/sammcj/git/puppet/files/dev-redmine/var/git/gitlab/config/gitlab.yml",
+		"/Users/sammcj/git/puppet/modules/ixanginx/manifests/puma_app.pp",
+		"/Users/sammcj/git/puppet/files/dev-redmine/var/git/gitlab/config/database.yml",
+		"/Users/sammcj/git/puppet/modules/rbenv/manifests/bundle.pp",
+		"/Users/sammcj/git/puppet/modules/rbenv/manifests/install.pp",
+		"/Users/sammcj/Library/Application Support/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/Users/sammcj/Library/Application Support/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/Users/sammcj/git/puppet/modules/rbenv/lib/puppet/type/rbenvgem.rb",
+		"/Users/sammcj/git/puppet/files/dev-redmine/var/gitlabhq/config.yml",
+		"/Users/sammcj/git/puppet/modules/ixacodedeploy/manifests/git.pp",
+		"/Users/sammcj/git/puppet/modules/ixadbserver/manifests/postgresql92/redmine/redminedatabase.pp",
+		"/Users/sammcj/scripts/pushover.sh",
+		"/Users/sammcj/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/sammcj/git/puppet/modules/ixanginx/files/puma/Gemfile.local",
+		"/Users/sammcj/git/puppet/modules/ixadrupal/manifests/prodapps/sites.pp",
+		"/Users/sammcj/Desktop/test.py",
+		"/Users/sammcj/git/puppet/modules/ixadbserver/files/srs/ship_demo.sql",
+		"/Users/sammcj/git/puppet/modules/ixadbserver/files/srs/ship_training.sql",
+		"/Users/sammcj/git/puppet/modules/ixanagios/files/contacts.cfg",
+		"/Users/sammcj/git/sammcj.github.io/archive.html",
+		"/Users/sammcj/git/sammcj.github.io/index.md",
+		"/Users/sammcj/Downloads/FRITZ.Box Fon WLAN 7390 84.05.51i_19.04.13_1719.export",
+		"/Users/sammcj/git/puppet/modules/ixa-drupal/manifests/ixa_siteextras.pp",
+		"/Users/sammcj/git/puppet/modules/common/README",
+		"/Users/sammcj/Desktop/ixavpn/IXA.ovpn/config.ovpn",
+		"/Users/sammcj/Desktop/ixavpn/files/config.conf",
+		"/Users/sammcj/Desktop/ixavpn/IXA.ovpn/config.conf",
+		"/Users/sammcj/git/puppet/modules/ixa-backup/files/remotebackupall.sh",
+		"/Users/sammcj/git/puppet/modules/ixa-backup/files/nas/remotebackupall.sh",
+		"/Users/sammcj/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/sammcj/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/sammcj/Library/Application Support/Sublime Text 2/Packages/Terminal/default.sublime-project",
+		"/Users/sammcj/Library/Application Support/Sublime Text 2/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/sammcj/git/otnlegacy/db-s2s/Include",
+		"/Users/sammcj/Library/Application Support/Sublime Text 2/Packages/Terminal/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" 0x",
+			" ",
+			"SRS-MAIN-RELEASE-2013-10-01-01",
+			"redpoint",
+			"ausda",
+			"\"",
+			"-j",
+			"\"",
+			"RELEASE-2013-05-29-01",
+			",RELEASE-2013-05-29-01",
+			"RELEASE-2013-05-29-01",
+			"project"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 159.0
+	},
+	"pinned_build_system": "",
+	"project": "ansible.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"int_docker",
+				"puppet/hdata/int_docker_apps.eyaml"
+			],
+			[
+				"nodes_red",
+				"puppet/manifests/nodes_redmine.pp"
+			],
+			[
+				"no",
+				"puppet/manifests/nodes_redmine.pp"
+			],
+			[
+				"nodes_srs",
+				"puppet/manifests/nodes_srs.pp"
+			],
+			[
+				"dockerhost.pp",
+				"puppet/modules/puppet-modules/ixadockerapp/manifests/host.pp"
+			],
+			[
+				"hdatastorage",
+				"puppet/hdata/int_storage.eyaml"
+			],
+			[
+				"ab.ixa",
+				"puppet/modules/puppet-files/files/int-bindmaster/var/named/master/private/abb.ixa.net.au"
+			],
+			[
+				"office.info",
+				"puppet/modules/puppet-files/files/int-bindmaster/var/named/master/private/office.infoxchange.net.au"
+			],
+			[
+				"oncall.y",
+				"puppet/hdata/nagios_oncall.yaml"
+			],
+			[
+				"drupalsites",
+				"puppet/modules/ixadrupal/manifests/test/sites.pp"
+			],
+			[
+				"nodes_drupal",
+				"puppet/manifests/nodes_newdrupal.pp"
+			],
+			[
+				"nodes_djan",
+				"puppet/manifests/nodes_django.pp"
+			],
+			[
+				"prod_re",
+				"puppet/application_versions/prod_releasetags.csv"
+			],
+			[
+				"nodes_s2s",
+				"puppet/manifests/nodes_s2s.pp"
+			],
+			[
+				"augeas",
+				"puppet/modules/augeas/manifests/sysctl.pp"
+			],
+			[
+				"augeacon",
+				"puppet/modules/augeas/manifests/sysctl/conf.pp"
+			],
+			[
+				"test_re",
+				"puppet/application_versions/test_releasetags.csv"
+			],
+			[
+				"drupalstagingsites",
+				"puppet/modules/ixadrupal/manifests/staging/sites.pp"
+			],
+			[
+				"infoxchange.net.au",
+				"otnlegacy/bindmaster/var/named/master/ixa/infoxchange.net.au"
+			],
+			[
+				"stagin_",
+				"puppet/application_versions/staging_releasetags.csv"
+			],
+			[
+				"staging_re",
+				"puppet/application_versions/staging_releasetags.csv"
+			],
+			[
+				"nodes_re",
+				"puppet/manifests/nodes_redmine.pp"
+			],
+			[
+				"drupaltestsites",
+				"puppet/modules/ixadrupal/manifests/test/sites.pp"
+			],
+			[
+				"abb.i",
+				"otnlegacy/bindmaster/var/named/master/private/abb.ixa.net.au"
+			],
+			[
+				"puma",
+				"puppet/modules/ixanginx/files/puma.init"
+			],
+			[
+				"redminepostgre",
+				"puppet/files/int-redmine/etc/postgresql/9.2/main/postgresql.conf"
+			],
+			[
+				"pgsql",
+				"puppet/files/int-redmine/pgsql-backup.sh"
+			],
+			[
+				"redminepg_",
+				"puppet/files/int-redmine/etc/postgresql/9.2/main/pg_hba.conf"
+			],
+			[
+				"srspg_hba",
+				"puppet/files/prod-srs-pg/etc/postgresql/8.4/main/pg_hba.conf"
+			],
+			[
+				"redminepg_g",
+				"puppet/files/int-redmine/etc/postgresql/9.2/main/pg_hba.conf"
+			],
+			[
+				"postgresql.conf",
+				"otnlegacy/db-s2s/etc/postgresql/8.3/main/postgresql.conf"
+			],
+			[
+				"srspostgresql.conf",
+				"puppet/files/prod-srs-pg/etc/postgresql/8.4/main/postgresql.conf.prod"
+			],
+			[
+				"nodes_redmine",
+				"puppet/manifests/nodes_redmine.pp"
+			],
+			[
+				"amandaex",
+				"puppet/modules/ixabackup/files/amanda/amanda_excludes.txt"
+			],
+			[
+				"test",
+				"puppet/application_versions/test_releasetags.csv"
+			],
+			[
+				"drupaldevsites",
+				"puppet/modules/ixadrupal/manifests/dev/sites.pp"
+			],
+			[
+				"gitlab.yl",
+				"puppet/files/dev-redmine/var/git/gitlab/config/gitlab.yml"
+			],
+			[
+				"puma_app",
+				"puppet/modules/ixanginx/manifests/puma_app.pp"
+			],
+			[
+				"rbenv",
+				"puppet/modules/rbenv/manifests/bundle.pp"
+			],
+			[
+				"codedeploy",
+				"puppet/modules/ixacodedeploy/manifests/git.pp"
+			],
+			[
+				"nginxpum",
+				"puppet/modules/ixanginx/manifests/puma_app.pp"
+			],
+			[
+				"postgresredmine",
+				"puppet/modules/ixadbserver/manifests/postgresql92/redmine/redminedatabase.pp"
+			],
+			[
+				"nodes_remd",
+				"puppet/manifests/nodes_redmine.pp"
+			],
+			[
+				"drupalprodsites",
+				"puppet/modules/ixadrupal/manifests/prodapps/sites.pp"
+			],
+			[
+				"prod_srs",
+				"puppet/application_versions/prod_releasetags.csv"
+			],
+			[
+				"ship_tr",
+				"puppet/modules/ixadbserver/files/srs/ship_training.sql"
+			],
+			[
+				"ship_de",
+				"puppet/modules/ixadbserver/files/srs/ship_demo.sql"
+			],
+			[
+				"contacts",
+				"puppet/modules/ixanagios/files/contacts.cfg"
+			],
+			[
+				"staging",
+				"puppet/application_versions/staging_releasetags.csv"
+			],
+			[
+				"remotebackupall",
+				"puppet/modules/ixa-backup/files/nas/remotebackupall.sh"
+			],
+			[
+				"test_release",
+				"puppet/application_versions/test_releasetags.csv"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/sammcj/sublime/IXAgit.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

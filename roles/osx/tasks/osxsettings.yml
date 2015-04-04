@@ -1,0 +1,3 @@
+---
+- name: Set OSX defaults
+  script: roles/osx/files/osx_settings.sh

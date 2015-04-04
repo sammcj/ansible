@@ -1,0 +1,4 @@
+---
+
+- git: repo=https://github.com/sammcj/smart_diskinfo.git dest=/root/git/smart_diskinfo
+

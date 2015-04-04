@@ -1,0 +1,31 @@
+---
+
+- name: NAS media server
+  hosts: nas
+  sudo: yes
+  roles:
+  #- update
+  - debian
+  - libvirt
+  - build
+  - docker
+  - backupninja
+  - debops.samba
+  #- nginx
+  #- { role: geerlingguy.gogs }
+  #- debops.ferm
+  #- kalos.smartd
+  #- kernelwatch
+
+- name: Macbook Pro
+  hosts: localhost
+  vars:
+    home_dir: /Users/samm
+  tags:
+    - osx
+  user: sammcj
+  connection: local
+  gather_facts: no
+  sudo: no
+  roles:
+    - osx

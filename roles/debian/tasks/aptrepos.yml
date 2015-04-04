@@ -1,0 +1,12 @@
+---
+
+- name: Add apt repos
+  tags:
+    - packages
+  apt_repository: repo='{{ item }}' state=present update_cache=no
+  with_items:
+    - 'deb http://mirror.internode.on.net/pub/debian/ jessie main contrib non-free'
+    - 'deb http://security.debian.org/ jessie/updates main'
+    - 'deb http://mirror.internode.on.net/pub/debian/ jessie-updates main'
+    - 'deb http://mirror.internode.on.net/pub/debian/ jessie-backports main'
+    - 'deb https://packagecloud.io/mrmondo/debian-kernel/debian/ jessie main'

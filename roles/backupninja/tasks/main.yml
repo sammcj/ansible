@@ -1,0 +1,14 @@
+---
+
+- name: backup pkgs
+  tags:
+    - packages
+  apt: pkg={{ item }} state=installed
+  with_items:
+    - backupninja
+    - rdiff-backup
+
+- name: backupninja
+  template: src={{ item.name }}.j2 dest={{ item.dest }} owner=root group=root mode={{ item.mode }}
+  with_items:
+    - {name: home-root.rdiff, mode: 600, dest: /etc/backup.d/home-root.rdiff}
