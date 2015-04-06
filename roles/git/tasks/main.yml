@@ -10,3 +10,4 @@
 - git: repo=https://github.com/brendangregg/perf-tools.git dest=/root/git/perf-tools
 - git: repo=https://github.com/stec-inc/EnhanceIO.git dest=/root/git/enhanceio
 - git: repo=https://github.com/lanceshelton/irqstat.git dest=/root/git/irqstat
+- git: repo=git clone http://github.com/facebook/osquery.git dest=/root/git/osquery
