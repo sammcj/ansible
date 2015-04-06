@@ -3,6 +3,9 @@
 - name: Get Sysdig apt-key
   shell: "curl -s https://s3.amazonaws.com/download.draios.com/DRAIOS-GPG-KEY.public | apt-key add -"
 
+- name: Get osquery apt-key
+  shell: "apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C9D8B80B"
+
 - name: Add apt repos
   tags:
     - packages
@@ -14,3 +17,4 @@
     - 'deb http://mirror.internode.on.net/pub/debian/ jessie-backports main'
     - 'deb https://packagecloud.io/mrmondo/debian-kernel/debian/ jessie main'
     - 'deb http://download.draios.com/stable/deb stable-amd64/'
+    - 'deb https://osquery-packages.s3.amazonaws.com/trusty trusty main'

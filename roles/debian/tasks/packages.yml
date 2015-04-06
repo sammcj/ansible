@@ -38,6 +38,7 @@
     - lockfile-progs
     - sysdig
     - linux-headers-{{ansible_kernel}}
+    - osquery
 
 - name: Remove unwanted packages
   action: apt pkg={{item}} state=absent
