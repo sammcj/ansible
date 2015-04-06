@@ -46,7 +46,8 @@
     - lame
     - libevent
     - nmap
-    #- docker-completion
+    - docker-completion
+    - docker-machine
     - gnu-sed
     - siege
     - ffmpeg
@@ -55,3 +56,4 @@
     - gnutls
     - p7zip
     - shellcheck
+    - osquery
