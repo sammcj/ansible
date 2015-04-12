@@ -4,13 +4,14 @@
     - osx
   homebrew_cask: name={{ item }} state=present
   with_items:
+      anybar
       # - alfred
       #- firefox
       #- iterm2
       #- sublime-text
       # - appfresh
       # - caffeine
-      #- lastfm
+      - lastfm
       - vmware-fusion
       - backblaze-downloader
       # - monodraw
@@ -29,7 +30,7 @@
       # - calibre
       # - appzapper
       # - zterm
-      # - vlc
+      - vlc
       # - tunnelblick
       # - transmission
       # - the-unarchiver
