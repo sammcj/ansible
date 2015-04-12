@@ -1,16 +1,16 @@
 ---
 
 - name: NAS media server
-  hosts: nas
+  hosts: newnas
   sudo: yes
   roles:
   #- update
   - debian
   - libvirt
   - build
-  - docker
+  #- docker
   - backupninja
-  - debops.samba
+  #- debops.samba
   #- nginx
   #- debops.ferm
   #- kalos.smartd

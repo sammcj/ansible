@@ -39,13 +39,13 @@
     - lockfile-progs
     - sysdig
     - linux-headers-{{ansible_kernel}}
-    - osquery
+    - osquery-latest
 
 - name: Remove unwanted packages
   action: apt pkg={{item}} state=absent
   with_items:
     - nano
-    - x11-common
+    # - x11-common # required for qemu-kvm
 
 - name: Install latest ansible
   pip: name=ansible state=latest

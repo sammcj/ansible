@@ -4,7 +4,7 @@
     - osx
   homebrew_cask: name={{ item }} state=present
   with_items:
-      anybar
+      - anybar
       # - alfred
       #- firefox
       #- iterm2

@@ -5,19 +5,19 @@
   with_items: ['gogs','sabnzbd','sickbeard-data','sickbeard-config','plex-config','webvirtmgr',
                'headphones-data','couchpotato-data','couchpotato-config']
 
-- name: gogs
-  tags: dockerapp
-  docker:
-    name: gogs
-    image: codeskyblue/docker-gogs
-    pull: always
-    restart_policy: always
-    state: started
-    volumes:
-    - /mnt/raid/docker/gogs:/data:rw
-    ports:
-    - "3000:3000"
-    - "3022:22"
+#- name: gogs
+#  tags: dockerapp
+#  docker:
+#    name: gogs
+#    image: codeskyblue/docker-gogs
+#    pull: always
+#    restart_policy: always
+#    state: started
+#    volumes:
+#    - /mnt/raid/docker/gogs:/data:rw
+#    ports:
+#    - "3000:3000"
+#    - "3022:22"
 
 - name: sabnzbd
   tags: dockerapp
