@@ -11,6 +11,7 @@
     - vim-pathogen
     - sysstat
     - htop
+    - mosh
     - curl
     - ncdu
     - aria2

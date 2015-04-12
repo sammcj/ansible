@@ -18,6 +18,7 @@
   with_items:
     - aria2
     - go
+    - mosh
     - libksba
     #- packer
     #- sudolikeaboss

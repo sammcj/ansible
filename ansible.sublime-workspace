@@ -15,10 +15,50 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 369.0,
-		"last_filter": "remove",
+		"height": 199.0,
+		"last_filter": "git push",
 		"selected_items":
 		[
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"jin",
+				"Set Syntax: Jinja Templates"
+			],
+			[
+				"syn jinj",
+				"Set Syntax: HTML (Jinja Templates)"
+			],
+			[
+				"jinj",
+				"Set Syntax: Jinja Templates"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syn ansib",
+				"Set Syntax: Ansible"
+			],
+			[
+				"synt yam",
+				"Set Syntax: YAML"
+			],
+			[
+				"side bar",
+				"Side Bar: Enable Syncing"
+			],
 			[
 				"remove",
 				"Package Control: Remove Package"
@@ -26,10 +66,6 @@
 			[
 				"trai",
 				"Trailing Spaces: Delete Trailing Spaces"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"upgr",
@@ -42,18 +78,6 @@
 			[
 				"syn ya",
 				"Set Syntax: YAML"
-			],
-			[
-				"git push",
-				"Git: Push"
-			],
-			[
-				"git com",
-				"Git: Commit"
-			],
-			[
-				"git ad",
-				"Git: Add Current File"
 			],
 			[
 				"git pu",
@@ -148,11 +172,52 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/samm/git/ansible"
+		"/Users/samm/git/ansible",
+		"/Users/samm/git/ansible/roles",
+		"/Users/samm/git/ansible/roles/debian",
+		"/Users/samm/git/ansible/roles/debian/files",
+		"/Users/samm/git/ansible/roles/debian/tasks",
+		"/Users/samm/git/ansible/roles/docker",
+		"/Users/samm/git/ansible/roles/docker/tasks",
+		"/Users/samm/git/ansible/roles/git",
+		"/Users/samm/git/ansible/roles/git/tasks",
+		"/Users/samm/git/ansible/roles/kernelwatch",
+		"/Users/samm/git/ansible/roles/kernelwatch/tasks",
+		"/Users/samm/git/ansible/roles/libvirt",
+		"/Users/samm/git/ansible/roles/nginx",
+		"/Users/samm/git/ansible/roles/nginx/tasks",
+		"/Users/samm/git/ansible/roles/samba",
+		"/Users/samm/git/ansible/roles/samba/tasks",
+		"/Users/samm/git/ansible/vars"
 	],
 	"file_history":
 	[
+		"/Users/samm/git/ansible/roles/docker/tasks/dockerapps.yml",
+		"/Users/samm/git/ansible/roles/debian/tasks/aptrepos.yml",
+		"/Users/samm/git/ansible/roles/debian/tasks/packages.yml",
+		"/Users/samm/Downloads/DRAIOS-GPG-KEY.public",
+		"/Users/samm/Downloads/draios.list",
+		"/Users/samm/git/ansible/roles/git/tasks/main.yml",
+		"/Users/samm/git/ansible/roles/docker/tasks/install.yml",
+		"/Users/samm/git/ansible/roles/debian/tasks/main.yml",
+		"/Users/samm/git/ansible/site.yml",
+		"/Users/samm/git/ansible/roles/debian/tasks/python.yml",
+		"/Users/samm/git/ansible/vars/main.yml",
+		"/Users/samm/git/ansible/roles/debian/tasks/env.yml",
+		"/Users/samm/git/ansible/requirements.yml",
+		"/Users/samm/git/ansible/roles/docker/tasks/main.yml",
+		"/Users/samm/git/ansible/run_docker_apps.sh",
+		"/Users/samm/git/ansible/dockerapps.yml",
+		"/Users/samm/git/ansible/hosts",
+		"/Users/samm/git/ansible/roles/docker/vars/docker_apps.yml",
+		"/Users/samm/git/ansible/roles/docker/templates/dockerapps.unit.j2",
+		"/Users/samm/git/ansible/roles/docker/tasks/docker-services.yml",
+		"/Users/samm/git/ansible/roles/systemd/tasks/main.yml",
+		"/Users/samm/git/ansible/roles/docker/templates/unit.service.j2",
+		"/Users/samm/git/ansible/roles/gogs/tasks/main.yml",
 		"/Users/samm/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/samm/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/samm/Library/Application Support/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
 		"/Users/samm/Dropbox/Sublime/User/Theme - Hero/Hero Dark.sublime-theme",
 		"/Users/samm/git/puppet/hdata/int_docker_apps.eyaml",
 		"/Users/samm/git/puppet/manifests/nodes_redmine.pp",
@@ -247,7 +312,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -261,6 +326,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"8888",
+			"movies",
+			"kernel-ci",
+			"ansible",
+			"smart_diskinfo",
+			"headphones",
+			"webvirtmgr",
+			"tags: nzb",
+			"nzb",
+			"description",
+			"redis_server",
+			"smart_diskinfo",
+			"value.name",
+			"unit_description",
+			"redis_server",
+			"/mnt/raid/",
 			" 0x",
 			" ",
 			"SRS-MAIN-RELEASE-2013-10-01-01",
@@ -347,6 +428,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"main",
+				"roles/docker/tasks/main.yml"
+			],
 			[
 				"int_docker",
 				"puppet/hdata/int_docker_apps.eyaml"
