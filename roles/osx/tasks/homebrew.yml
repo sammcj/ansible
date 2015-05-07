@@ -56,5 +56,6 @@
     - openssl
     - gnutls
     - p7zip
+    - fpp
     - shellcheck
     - osquery
